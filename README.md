@@ -1,8 +1,7 @@
-DAO
-===
-
+Steps to be performed:
+----------------------
 1. Preparing database - Queries to be executed as 'root'(MySQL Server: 5.5.27):
--------------------------------------------------------------------------------
+
 CREATE DATABASE javabase DEFAULT CHARACTER SET utf8 COLLATE utf8_unicode_ci;
 
 CREATE TABLE javabase.User (
@@ -58,7 +57,7 @@ GRANT ALL ON javabase.* TO 'java'@'localhost' IDENTIFIED BY 'd$7hF_r!9Y';
 
 
 P.S: High respects to BalusC.
-Preparing the database by executing the queries(See 1.),clone this repository and get started. :)
+Prepare the database by executing the queries(See 1.),clone this repository and get started. :)
 
 For any queries/feedbacks/suggestions,drop a mail to sndpchatterjee07@gmail.com.
 
