@@ -17,6 +17,7 @@ CREATE TABLE javabase.User (
 );
 
 CREATE USER 'java'@'localhost' IDENTIFIED BY 'd$7hF_r!9Y';
+
 GRANT ALL ON javabase.* TO 'java'@'localhost' IDENTIFIED BY 'd$7hF_r!9Y';
 
 
